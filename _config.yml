@@ -101,5 +101,8 @@ theme: maupassant
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
+## https://github.com/jayyuz/jayyuz.git
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/jayyuz/jayyuz.git
+  branch: hexo-page
